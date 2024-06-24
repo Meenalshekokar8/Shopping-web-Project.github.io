@@ -1,0 +1,115 @@
+/*nav*/
+
+.bg-custom{
+	background-color: #fcba77;
+}
+
+.nav-link, .navbar-brand{
+	color: black;
+}
+
+.navbar-text a{
+	color: black;
+}
+
+/*jumbotron/hero section*/
+
+.jumbotron{
+	padding: 3rem 8rem;
+	display: flex;
+	flex-direction: row;
+	background-color: #fcba77;
+	border-radius: 0rem;
+	}
+
+.jumbotron img{
+	width: 550px;
+	}
+
+/*about us*/
+
+#about img{
+	width: 400px;
+}
+
+#brandname{
+	color: #cf2b2b;
+}
+
+#about p{
+	text-align: justify;
+	line-height: 30px;
+	user-select: none;
+}
+
+/*products*/
+
+#product img{
+	height: 250px;
+}
+
+#product #icons{
+	width: 30px;
+}
+
+#product #icons img{
+	height: 30px;
+	width: 30px;
+	background-color: lightgrey;
+	margin: 5px 0px;
+	padding: 5px;
+}
+
+#icons{
+	position: absolute;
+	top: 20px;
+	opacity: 0;
+	transition: opacity 0.3s;
+	cursor: pointer;
+}
+
+#product .card:hover #icons{
+	opacity: 1;
+}
+
+#picons{
+	float: right;
+}
+
+.card-footer{
+	background-color: blanchedalmond;
+}
+
+.slider img{
+	width: 250px;
+	height: 200px;
+	
+}
+
+/*footer*/
+
+.footer{
+	display: flex;
+	align-items: center;
+	margin-top: 100px;
+	height: 250px;
+	background-color: #fcba77;
+}
+
+.footer ul{
+	list-style-type:none ;
+	margin: 0;
+	padding: 0;
+}
+
+.footer #tc li a{
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+.footer img{
+	width: 700px;
+	height: 200px;
+	display: flex;
+
+}

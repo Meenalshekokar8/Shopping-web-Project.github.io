@@ -102,8 +102,8 @@
 	padding: 0;
 }
 
-.footer #tc li a{
-	text-decoration: none;
+.footer a{
+	color: black;
 	text-decoration-color: black;
 }
 
